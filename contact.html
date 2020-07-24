@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" type="image/png" href="images/favicon-logo.png">
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <header>
+
+    <div class="mobile-menu">
+      <img class="logo1" alt="mercedes" src="images/logo.jpg">
+      <img id="mobile-button" src="images/menu-icon.png" alt="nav-button">
+    </div>
+
+    <nav id="menu-main">
+      <img class="logo" alt="mercedes" src="images/logo.jpg">
+      <a href="index.html">Home</a>
+      <a href="history.html">History</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="#">Contact us</a>
+    </nav>
+
+  </header>
+
+  <main>
+
+    <h1>CONTACT US</h1>
+    <h2>Contact form</h2>
+
+    <form id="contact-form">
+      <label for="name"></label> <input type="text" id="name" name="name" placeholder="Name">
+      <label for="email"></label><input type="email" id="email" name="email" placeholder="Email">
+      <label for="age"></label><input type="number" id="age" name="age" placeholder="Age">
+      <label for="comments"></label><textarea id="comments" name="comments" placeholder="Comments/Questions/Requests here"></textarea>
+    </form>
+
+    <button id="btnForm">Submit Form</button>
+
+    <div id="modal-container">
+      <div id="form-result">
+        <span id="close">x</span>
+        <p>Thank you, here is your form receipt. We'll be in contact soon!</p>
+        <p id="formReceipt"></p>
+      </div>
+    </div>
+
+  </main>
+
+  <script src="js/scripts.js"></script>
+  <script src="js/formscript.js"></script>
+</body>
+
+</html>
